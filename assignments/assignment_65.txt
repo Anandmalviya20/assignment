@@ -1,0 +1,35 @@
+functions can generally be classified into four basic types :
+1)built in functions
+2)defined by user
+3)lambda functions
+4)recursive functions
+
+1)built in functions- 
+        -these are function that are provided by python as a part of standard library.
+        -they are always available for use without needing to import something
+        -example- print(), len(), type(), int(), str(), sum() etc. 
+2)defined by user-
+        -these are function that are defined by user to perform specific task .
+        -example-
+        def greet(name):
+            return f"Hello, {name}!"
+3)lambda functios:
+        -these are small, anonymous functions defined using the lambda keyword.   
+        -ex.
+        add = lambda x, y: x + y
+        print(add(2, 3))  # Output: 5
+
+4)recursive functions:
+        -These are functions that call themselves in order to solve a problem. 
+        They are often used for problems that can be broken down into smaller sub-problems, 
+        such as calculating factorials or Fibonacci sequences. Example:
+            def factorial(n):
+            if n == 0:
+                return 1
+            else:
+                return n * factorial(n-1)
+
+
+        
+         
+      
